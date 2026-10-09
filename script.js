@@ -11,7 +11,7 @@ document.addEventListener('scroll', onScroll, { passive: true });
 onScroll();
 
 const revealEls = document.querySelectorAll(
-  '.club__text, .club__crest, .cont__info, .cont__map'
+  '.club__text, .club__crest, .team-card, .cont__info, .cont__map'
 );
 revealEls.forEach(el => el.classList.add('reveal'));
 const io = new IntersectionObserver((entries) => {
